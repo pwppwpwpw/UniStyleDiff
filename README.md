@@ -1,4 +1,4 @@
-# UniStyleDiff：: A unified diffusion-driven framework for image and video style transfer
+# UniStyleDiff：A unified diffusion-driven framework for image and video style transfer
 [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417425043763) 
 
 implementation of the paper:UniStyleDiff: A unified diffusion-driven framework for image and video style transfer (ESWA 2026).
