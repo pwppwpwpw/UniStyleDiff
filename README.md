@@ -132,6 +132,33 @@ python scripts/infer_video.py \\
 
 A lightweight static homepage is available at `website/index.html`.
 
+## Figures
+
+Figure 1: Overall framework.
+
+![Figure 1](assets/figure1.png)
+
+Figure 2: Stage I image stylization details.
+
+![Figure 2](assets/figure2.png)
+
+Figure 3: Stage II video extension and ICM.
+
+![Figure 3](assets/figure3.png)
+
+## Citation
+
+```bibtex
+@article{yang2025unistylediff,
+  title={UniStyleDiff: A unified diffusion-driven framework for image and video style transfer},
+  author={Yang, Siyu and Ke, Chunchen and Zhang, Jian and Miao, Chunwei and Liu, Xiyao and Wu, Songtao and Xu, Kuanhong and Huang, Da and Fang, Hui},
+  journal={Expert Systems with Applications},
+  pages={130761},
+  year={2025},
+  publisher={Elsevier}
+}
+```
+
 ## License
 
 License is not specified yet.
