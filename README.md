@@ -4,7 +4,7 @@ implementation of the paper:UniStyleDiff: A unified diffusion-driven framework f
 <p align="center">
   <img src="assets/figure1.png" width="90%" alt="Figure 1: Overall framework" />
 </p>
-<p align="center"><em>Figure 1. Overall framework.</em></p>
+
 UniStyleDiff provides a two-stage pipeline that stylizes images first, then extends the model to videos with a pluggable inter-frame consistency module (ICM). Motion-Dynamics Preserved (MDP) sampling is used to guide temporal coherence at inference.
 
 ## Highlights
@@ -115,12 +115,12 @@ python scripts/train_stage2.py --config /path/to/stage2.json --stage1_ckpt /path
   <td align="center" width="50%">
       <img src="assets/figure2.png" width="98%" alt="Figure 2: Stage I image stylization details" />
       <br />
-      <em>Figure 2. Stage I image stylization details.</em>
+     
 </td>
  <td align="center" width="50%">
       <img src="assets/figure3.png" width="98%" alt="Figure 3: Stage II video extension and ICM" />
       <br />
-      <em>Figure 3. Stage II video extension and ICM.</em>
+     
  </td>
 
 
