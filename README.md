@@ -1,5 +1,5 @@
 # UniStyleDiff
-[Paper]([https://link.springer.com/chapter/10.1007/978-3-031-72848-8_15](https://www.sciencedirect.com/science/article/abs/pii/S0957417425043763)) 
+[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417425043763) 
 implementation of the paper:UniStyleDiff: A unified diffusion-driven framework for image and video style transfer (ESWA 2026).
 <p align="center">
   <img src="assets/figure1.png" width="90%" alt="Figure 1: Overall framework" />
