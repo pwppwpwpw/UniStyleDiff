@@ -21,6 +21,11 @@ Stage II (video):
 
 Video frames + Style image -> Frozen Stage I backbone + ICM -> Stylized video
 
+<p align="center">
+  <img src="assets/figure1.png" width="90%" alt="Figure 1: Overall framework" />
+</p>
+<p align="center"><em>Figure 1. Overall framework.</em></p>
+
 ## Repository Layout
 
 - data: image and video datasets.
@@ -104,6 +109,23 @@ python scripts/train_stage1.py --config /path/to/stage1.json
 python scripts/train_stage2.py --config /path/to/stage2.json --stage1_ckpt /path/to/stage1.pt
 ```
 
+## Architecture Details
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/figure2.png" width="98%" alt="Figure 2: Stage I image stylization details" />
+      <br />
+      <em>Figure 2. Stage I image stylization details.</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/figure3.png" width="98%" alt="Figure 3: Stage II video extension and ICM" />
+      <br />
+      <em>Figure 3. Stage II video extension and ICM.</em>
+    </td>
+  </tr>
+</table>
+
 ## Inference
 
 Note: the provided inference scripts currently load the base SD v1.5 weights from `model.pretrained`. If you want to use Stage I or Stage II checkpoints, load them explicitly inside the scripts or extend the pipelines.
@@ -131,20 +153,6 @@ python scripts/infer_video.py \\
 ## Website
 
 A lightweight static homepage is available at `website/index.html`.
-
-## Figures
-
-Figure 1: Overall framework.
-
-![Figure 1](assets/figure1.png)
-
-Figure 2: Stage I image stylization details.
-
-![Figure 2](assets/figure2.png)
-
-Figure 3: Stage II video extension and ICM.
-
-![Figure 3](assets/figure3.png)
 
 ## Citation
 
