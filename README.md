@@ -1,6 +1,6 @@
 # UniStyleDiff
 
-Unified diffusion-driven framework for image and video style transfer (ESWA 2026).
+implementation of the paper:UniStyleDiff: A unified diffusion-driven framework for image and video style transfer (ESWA 2026).
 
 UniStyleDiff provides a two-stage pipeline that stylizes images first, then extends the model to videos with a pluggable inter-frame consistency module (ICM). Motion-Dynamics Preserved (MDP) sampling is used to guide temporal coherence at inference.
 
